@@ -1,3 +1,3 @@
 # odin-recipes
 
-Time to get cooking!
+Let's get this cooking started!
