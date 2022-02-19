@@ -8,11 +8,14 @@
 .flexcontainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 30px;
 }
 
 .brief {
@@ -25,5 +28,10 @@
   height: 400px;
   object-fit: cover;
   border: 1px solid rgb(221, 217, 217);
+  margin: 20px;
   flex: 1 1 auto;
+}
+
+.brief {
+  color: rgb(158, 133, 120);
 }
