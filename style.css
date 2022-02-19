@@ -1,26 +1,32 @@
+.logocontainer {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   height: 500px;
   width: 700px;
-  display: block;
-  margin: 0 auto;
+  margin: -100px 0px -130px 0px;
+  overflow: hidden;
 }
 
 .flexcontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
 }
 
-.brief {
+.tagline {
   text-align: center;
   font-size: 25px;
+  color: rgb(158, 133, 120);
 }
 
 .image {
@@ -28,10 +34,24 @@
   height: 400px;
   object-fit: cover;
   border: 1px solid rgb(221, 217, 217);
-  margin: 20px;
+  border-radius: 20px;
+  margin: 10px 0px 20px 40px;
   flex: 1 1 auto;
 }
 
-.brief {
+.link {
+  flex: 1 1 auto;
+}
+
+.recipelink {
+  color: rgb(158, 133, 120);
+}
+
+.footer {
+  text-align: center;
+  color: rgb(158, 133, 120);
+}
+
+.footerlink {
   color: rgb(158, 133, 120);
 }
