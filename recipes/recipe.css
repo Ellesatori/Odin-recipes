@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2&family=Bellota&family=Dancing+Script:wght@700&family=Fasthand&family=Jacques+Francois+Shadow&family=Jua&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@100&family=Source+Sans+Pro:wght@200&display=swap");
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.karekare {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid rgb(221, 217, 217);
+  border-radius: 100%;
+  margin: 20px 0px 10px 0px;
+  flex: 1 1 auto;
+}
+
+.ultimatebox {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  background-color: rgb(250, 244, 237);
+  flex-direction: column;
+  width: 600px;
+  justify-content: center;
+  opacity: 80%;
+  border-radius: 5px;
+}
+
+.description,
+.ingredients,
+.instructions {
+  flex: 1 1 auto;
+  padding: 20px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.description {
+  text-align: center;
+}
