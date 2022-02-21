@@ -1,16 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2&family=Bellota&family=Dancing+Script:wght@700&family=Fasthand&family=Jacques+Francois+Shadow&family=Jua&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@100&family=Source+Sans+Pro:wght@200&display=swap");
 .karekare,
-.sisig {
+.sisig,
+.hipon {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
 }
 .karekare {
   background-image: url(/recipes/pictures/karekare4-1.jpeg);
+  background-size: 700px 900px;
+  object-fit: cover;
 }
 
 .sisig {
   background-image: url(/recipes/pictures/crispy-pork-sisig-4.jpeg);
+  background-size: 700px 900px;
+}
+
+.hipon {
+  background-image: url(/recipes/pictures/ginataang-hipon-1-1.jpeg);
+  background-size: 700px 900px;
 }
 
 .logocontainer {
@@ -53,7 +61,8 @@
 
 .ultimatebox {
   display: flex;
-  justify-content: center;
+  flex-direction: row-reverse;
+  margin-right: 10px;
 }
 
 .box {
@@ -61,10 +70,8 @@
   background-color: rgb(248, 246, 244);
   flex-direction: column;
   width: 700px;
-  justify-content: center;
-  opacity: 85%;
+  justify-content: flex-end;
   border-radius: 5px;
-  margin-top: 100px;
 }
 
 .description,
@@ -93,4 +100,8 @@
 .subsection {
   font-size: 25px;
   font-weight: bold;
+}
+
+.list {
+  font-size: 18px;
 }
